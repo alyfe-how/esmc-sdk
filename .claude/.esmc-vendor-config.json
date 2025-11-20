@@ -1,0 +1,66 @@
+{
+  "version": "2.0.0",
+  "last_updated": "2025-11-10",
+  "preprocessing": {
+    "strategy": "cheapest_available",
+    "capability_required": "L2_compression",
+    "model_override": null,
+    "vendors": [
+      {
+        "name": "openai",
+        "enabled": true,
+        "api_key_env": "OPENAI_API_KEY",
+        "notes": "Primary vendor - cheapest models available",
+        "models": [
+          {
+            "id": "gpt-4o-mini",
+            "input_price_per_mtok": 0.15,
+            "output_price_per_mtok": 0.60,
+            "capability_tier": "L2_compression",
+            "available": true,
+            "notes": "Primary model - reliable and affordable"
+          }
+        ]
+      },
+      {
+        "name": "anthropic",
+        "enabled": false,
+        "api_key_env": "ANTHROPIC_API_KEY",
+        "notes": "Set enabled:true and add API key to .env.local to use",
+        "models": [
+          {
+            "id": "claude-haiku-4",
+            "input_price_per_mtok": 0.25,
+            "output_price_per_mtok": 1.25,
+            "capability_tier": "L2_compression",
+            "available": true,
+            "notes": "Fast and affordable Claude model"
+          }
+        ]
+      },
+      {
+        "name": "xai",
+        "enabled": false,
+        "api_key_env": "XAI_API_KEY",
+        "notes": "Grok models - Set enabled:true and add API key to .env.local to use",
+        "models": [
+          {
+            "id": "grok-2-mini",
+            "input_price_per_mtok": 0.10,
+            "output_price_per_mtok": 0.50,
+            "capability_tier": "L2_compression",
+            "available": true,
+            "notes": "Grok's affordable model (if cheaper than OpenAI)"
+          }
+        ]
+      }
+    ]
+  },
+  "usage_instructions": [
+    "1. Add your API keys to .claude/.env.local (e.g., OPENAI_API_KEY=sk-...)",
+    "2. Enable vendors you want to use by setting 'enabled: true'",
+    "3. ESMC will auto-select the cheapest model from enabled vendors",
+    "4. Models are tried in price order (cheapest first)",
+    "5. If all fail, ESMC falls back to Claude subscription (no preprocessing)"
+  ]
+}

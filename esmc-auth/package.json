@@ -1,0 +1,53 @@
+{
+  "name": "@esmc/mcp-server",
+  "version": "3.8.4",
+  "description": "ESMC 3.11 | The Heart, Mind and Soul of Coding - MCP Server for VS Code/Cursor + Claude Code",
+  "main": "src/index.js",
+  "bin": {
+    "esmc-mcp": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node tests/test-server.js",
+    "build": "node scripts/build-secure-mcp.js",
+    "build:simple": "node scripts/build-mcp-package.js"
+  },
+  "keywords": [
+    "esmc",
+    "mcp",
+    "model-context-protocol",
+    "claude-code",
+    "ai",
+    "development"
+  ],
+  "author": {
+    "name": "ESMC Team",
+    "email": "contact@esmc-sdk.com",
+    "url": "https://esmc-sdk.com"
+  },
+  "bugs": {
+    "email": "support@esmc-sdk.com",
+    "url": "https://github.com/esmc-sdk/mcp-server/issues"
+  },
+  "homepage": "https://esmc-sdk.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esmc-sdk/mcp-server.git"
+  },
+  "license": "PROPRIETARY",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "chalk": "^4.1.2",
+    "express": "^4.21.1",
+    "node-machine-id": "^1.1.12",
+    "open": "^8.4.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "javascript-obfuscator": "^4.1.1"
+  }
+}

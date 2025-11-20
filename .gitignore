@@ -1,0 +1,38 @@
+# ESMC SDK - Git Ignore Configuration
+# =====================================
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# License files (user-specific, generated on login)
+.claude/.esmc-license.json
+
+# Memory and session data (user-specific)
+.claude/memory/
+.claude/scribe-notes/
+
+# Cache and temporary files
+.esmc-*.json
+!.claude/.esmc-vendor-config.json
+*.log
+*.tmp
+
+# Node modules (users install via npm)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Windows specific
+nul

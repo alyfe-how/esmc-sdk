@@ -1,0 +1,11 @@
+{
+  "auth\\credentials.js": "1.js",
+  "auth\\hardware.js": "2.js",
+  "auth\\tier-manager.js": "3.js",
+  "config\\constants.js": "4.js",
+  "core\\esmc-trigger.js": "5.js",
+  "index.js": "6.js",
+  "tools\\dashboard.js": "7.js",
+  "tools\\login.js": "8.js",
+  "tools\\status.js": "9.js"
+}
