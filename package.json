@@ -1,6 +1,6 @@
 {
   "name": "esmc-sdk-chaos",
-  "version": "4.1",
+  "version": "5.0",
   "description": "ESMC 3.13 Chaos Edition - Self-Healing AI Framework",
   "scripts": {
     "login": "node scripts/login-standalone.js",

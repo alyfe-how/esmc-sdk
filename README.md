@@ -1,192 +1,154 @@
-<p align="center">
-  <img src="https://esmc-sdk.com/logo.png" alt="ESMC Logo" width="120" />
-</p>
+================================================================================
+  ESMC 5.0 | Echelon Smart Mesh Core
+  The Heart, Mind and Soul of Coding
+================================================================================
 
-<h1 align="center">ESMC SDK</h1>
-<h3 align="center">Echelon Smart Mesh Core</h3>
-<p align="center"><em>The Heart, Mind and Soul of Coding</em></p>
+🚀 QUICK START GUIDE (3 SIMPLE STEPS!)
+----------------------------------------
 
-<p align="center">
-  <a href="https://esmc-sdk.com"><img src="https://img.shields.io/badge/version-4.1-blue.svg" alt="Version 4.1"></a>
-  <a href="https://esmc-sdk.com"><img src="https://img.shields.io/badge/license-Proprietary-red.svg" alt="License"></a>
-  <a href="https://nodejs.org"><img src="https://img.shields.io/badge/node-%3E%3D18-green.svg" alt="Node.js >= 18"></a>
-  <a href="https://discord.gg/N4qNFYWRwt"><img src="https://img.shields.io/discord/1234567890?color=7289da&label=Discord&logo=discord&logoColor=white" alt="Discord"></a>
-</p>
+**STEP 1: Extract to Your Project Directory**
+   • Extract ALL contents of ESMC-SDK-Chaos-v5.0.zip
+   • Copy EVERYTHING into your project directory
 
-<p align="center">
-  <a href="https://esmc-sdk.com">Website</a> •
-  <a href="https://esmc-sdk.com/dashboard">Dashboard</a> •
-  <a href="https://discord.gg/N4qNFYWRwt">Discord</a> •
-  <a href="#quick-start">Quick Start</a>
-</p>
+   Example:
+   Before:
+   YourProject/
+     ├── src/
+     └── package.json
 
----
+   After:
+   YourProject/
+     ├── .claude/              ← Extracted here
+     ├── auth-reference/       ← Extracted here
+     ├── scripts/              ← Extracted here
+     ├── bootstrap/            ← Extracted here
+     ├── components/           ← Extracted here
+     ├── CLAUDE.md             ← Extracted here
+     ├── package.json          ← Extracted here (ESMC's)
+     ├── src/                  ← Your existing files
+     └── (your other files)    ← Your existing files
 
-## What is ESMC?
+**STEP 2: Install & Login**
+   Windows:
+   • Right-click on your project folder
+   • Select "Open in Terminal" or "Open PowerShell here"
+   • Run: npm install
+   • Run: npm run login
 
-ESMC (Echelon Smart Mesh Core) is an AI-powered development framework that supercharges Claude Code with advanced intelligence capabilities:
+   Mac/Linux:
+   • Open Terminal
+   • cd to your project directory
+   • Run: npm install
+   • Run: npm run login
 
-- **5-Component Mesh Intelligence** - PIU, DKI, UIP, PCA, REASON working in parallel
-- **Memory Systems** - ATLAS T1/T2/T3 + HYDRA for cross-session context
-- **Strategic Orchestration** - ECHELON + ATHENA dialogue for complex tasks
-- **7-Colonel Deployment** - Specialized AI agents for different task types
-- **Proactive Intelligence** - Predicts what you need before you ask
+   Browser will open → Sign in → Done! ✅
 
-## Quick Start
+**STEP 3: Verify & Start Coding**
+   • Open project in Claude Code (VS Code/Cursor)
+   • In Claude Code terminal, test: esmc status
+   • Should show your tier and subscription ✅
+   • Start coding! ESMC activates automatically!
 
-### Prerequisites
+================================================================================
 
-- [VS Code](https://code.visualstudio.com/) or [Cursor](https://cursor.sh/)
-- [Claude Code Extension](https://marketplace.visualstudio.com/items?itemName=Anthropic.claude-code)
-- [Node.js 18+](https://nodejs.org/)
-- ESMC Account ([Sign up free](https://esmc-sdk.com))
+⚠️ IMPORTANT: DO NOT SKIP STEPS
+-------------------------------
 
-### Installation
+ESMC will NOT work if you skip dependency installation or authentication!
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/esmc-sdk/esmc-sdk.git
-cd esmc-sdk
+Common mistake: Trying to run "npm run login" before "npm install"
+→ This causes "Cannot find module 'node-machine-id'" error
 
-# 2. Install dependencies
-npm install
+Correct order: Extract → Install Dependencies → Authenticate → Copy to Project
 
-# 3. Authenticate (opens browser)
-npm run login
-```
+================================================================================
 
-### Setup in Your Project
+HOW IT WORKS
+------------
 
-Copy these to your project root:
-- `.claude/` folder
-- `CLAUDE.md` file
+• Cursor/VS Code → Your IDE with Claude Code extension
+• .claude/ → ESMC intelligence framework
+• CLAUDE.md → Activation trigger for Claude Code
 
-```bash
-# Example
-cp -r .claude /path/to/your/project/
-cp CLAUDE.md /path/to/your/project/
-```
+Just copy the 2 items (.claude, CLAUDE.md) to any project and code naturally.
+ESMC enhances Claude Code with advanced intelligence capabilities.
 
-### Verify Installation
+================================================================================
 
-In Claude Code terminal:
-```bash
-esmc status
-```
+TWO OPERATIONAL MODES
+---------------------
 
-You should see your tier (FREE/PRO/MAX/VIP) and subscription details.
+**Lightweight (Default):** Fast, concise responses. Intelligence runs silently
+in the background to inform Claude's decisions.
 
-## Usage
+**Full Deployment:** Type "ESMC" keyword anywhere in your message for detailed
+strategic briefing with ECHELON + ATHENA dialogue, mesh intelligence consensus,
+and 7-colonel deployment.
 
-### Two Operational Modes
+================================================================================
 
-**Lightweight Mode (Default)**
-- Fast, concise responses
-- Intelligence runs silently in background
-- Just code normally - ESMC enhances Claude automatically
+SYSTEM REQUIREMENTS
+-------------------
 
-**Full Deployment Mode**
-- Type "ESMC" anywhere in your message
-- Get detailed strategic briefing
-- ECHELON + ATHENA dialogue
-- 7-colonel deployment for complex tasks
+• VS Code or Cursor IDE
+• Claude Code extension (install from marketplace)
+• Node.js 18+ (https://nodejs.org)
+• Internet connection (for authentication)
 
-### Example
+================================================================================
 
-```
-# Lightweight (default)
-"Fix the authentication bug in login.js"
+SUPPORT
+-------
 
-# Full Deployment
-"Use ESMC to fix the authentication bug in login.js"
-```
+• Website: https://esmc-sdk.com
+• Dashboard: https://esmc-sdk.com/dashboard
+• Discord: https://discord.gg/N4qNFYWRwt
+• Email: support@esmc-sdk.com
 
-## Features by Tier
+================================================================================
 
-| Feature | FREE | PRO | MAX | VIP |
-|---------|------|-----|-----|-----|
-| Mesh Intelligence | ✅ | ✅ | ✅ | ✅ |
-| ATLAS T1 Memory | ✅ | ✅ | ✅ | ✅ |
-| ATLAS T2/T3 | ❌ | ✅ | ✅ | ✅ |
-| HYDRA Cross-Session | ❌ | ❌ | ✅ | ✅ |
-| Context Inference Engine | ❌ | ❌ | ✅ | ✅ |
-| Priority Support | ❌ | ❌ | ✅ | ✅ |
+TROUBLESHOOTING
+---------------
 
-[Compare Plans](https://esmc-sdk.com/pricing)
+**"esmc status" says "Error reading file" or "Found 0 files" (MOST COMMON!)**
+→ File system caching issue. Quick fix:
+   1. Open Claude Code terminal
+   2. Run: ls -la .claude/
+   3. Try again: esmc status
+   4. Should work now! ✅
 
-## Architecture
+   Why this happens: Windows/WSL sometimes doesn't immediately refresh
+   directory cache after creating .esmc-license.json. The 'ls' command
+   forces a refresh.
 
-```
-ESMC SDK
-├── .claude/                    # Intelligence framework
-│   ├── ESMC-Chaos/            # Core components (5,171 modules)
-│   │   └── components/        # Obfuscated for protection
-│   └── memory/                # Session & context storage
-├── esmc-auth/                 # Authentication module
-├── scripts/                   # CLI utilities
-├── CLAUDE.md                  # Activation trigger
-└── package.json               # Dependencies
-```
+**"Cannot find module 'node-machine-id'"**
+→ You skipped 'npm install'! Install dependencies BEFORE login:
+   • Run: npm install
+   • Then: npm run login
 
-## Troubleshooting
+**"ESMC not recognizing my tier"**
+→ Verify license file exists and is readable:
+   1. Check: ls -la .claude/.esmc-license.json
+   2. If missing: Run 'npm run login' again
+   3. Test: esmc tier (should show MAX/PRO/FREE)
+   4. Test: esmc status (should show full details)
 
-### "esmc status" shows error or 0 files
+**"Authentication failed" or "Network error"**
+→ Check internet connection. Try: npm run login again.
+   If problem persists, check firewall settings.
 
-File system cache issue. Quick fix:
-```bash
-ls -la .claude/
-esmc status
-```
+**"ESMC features not activating"**
+→ Ensure CLAUDE.md is in your project root.
+   Restart IDE after extracting files.
+   ESMC activates when Claude Code reads CLAUDE.md.
 
-### "Cannot find module 'node-machine-id'"
+**"npm: command not found"**
+→ Install Node.js 18+ from https://nodejs.org
+   Restart terminal after installation.
 
-Install dependencies first:
-```bash
-npm install
-npm run login
-```
+================================================================================
+  ESMC v5.0 | 2026-01-22
+  © 2026 ESMC. All rights reserved.
 
-### ESMC not recognizing tier
-
-```bash
-# Check license exists
-ls -la .claude/.esmc-license.json
-
-# Re-authenticate if missing
-npm run login
-
-# Verify
-esmc tier
-```
-
-### Features not activating
-
-1. Ensure `CLAUDE.md` is in project root
-2. Restart your IDE
-3. ESMC activates when Claude Code reads `CLAUDE.md`
-
-## Support
-
-- **Website:** [esmc-sdk.com](https://esmc-sdk.com)
-- **Dashboard:** [esmc-sdk.com/dashboard](https://esmc-sdk.com/dashboard)
-- **Discord:** [discord.gg/N4qNFYWRwt](https://discord.gg/N4qNFYWRwt)
-- **Email:** support@esmc-sdk.com
-
-## License
-
-ESMC SDK is proprietary software. Usage requires a valid license.
-
-- **Free Tier:** Basic features, no cost
-- **Paid Tiers:** PRO/MAX/VIP with advanced features
-
-[View Pricing](https://esmc-sdk.com/pricing) | [Terms of Service](https://esmc-sdk.com/terms)
-
----
-
-<p align="center">
-  <strong>ESMC v4.1</strong> | Built with intelligence for developers who demand more
-</p>
-
-<p align="center">
-  © 2025 ESMC. All rights reserved.
-</p>
+  Compatible with VS Code + Claude Code | Cursor + Claude Code
+================================================================================

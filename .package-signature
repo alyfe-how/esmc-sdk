@@ -1,7 +1,7 @@
 {
-  "version": "4.1",
-  "buildDate": "2025-11-20T03:42:59.739Z",
-  "signature": "dadab6e61720f7a2d83768778a0b29bab480d85ae2712d40539246e33b1b7484",
+  "version": "5.0",
+  "buildDate": "2026-01-22T14:35:16.637Z",
+  "signature": "87135fbfa7e7d96a4a4c55bbe0c139cd6177216c5e55e5043dd3fed5762a8ba8",
   "algorithm": "HMAC-SHA256",
   "note": "Verify package authenticity before deployment"
 }
