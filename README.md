@@ -23,21 +23,23 @@ The Heart, Mind and Soul of Coding
 • Copy EVERYTHING into your project directory
 
 Example:
+```
 Before:
 YourProject/
-├── src/
-└── package.json
+  ├── src/
+  └── package.json
 
 After:
 YourProject/
-├── .claude/              ← Extracted here
-├── esmc-auth/            ← Extracted here
-├── scripts/              ← Extracted here
-├── CLAUDE.md             ← Extracted here
-├── package.json          ← Extracted here (ESMC's)
-├── verify-package.js     ← Extracted here
-├── src/                  ← Your existing files
-└── (your other files)    ← Your existing files
+  ├── .claude/              ← Extracted here
+  ├── esmc-auth/            ← Extracted here
+  ├── scripts/              ← Extracted here
+  ├── CLAUDE.md             ← Extracted here
+  ├── package.json          ← Extracted here (ESMC's)
+  ├── verify-package.js     ← Extracted here
+  ├── src/                  ← Your existing files
+  └── (your other files)    ← Your existing files
+```
 
 **STEP 2: Install \& Login**
 Windows:
